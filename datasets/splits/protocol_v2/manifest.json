@@ -1,0 +1,9 @@
+{
+  "version": "protocol_v2",
+  "detection": "detection/splits.json",
+  "tracking": "tracking/splits.json",
+  "raw_data_modified": false,
+  "evaluation_scope": "within_scene_content_guarded_derived_gt",
+  "source_independence_verified": false,
+  "generator_sha256": "ebd5ca73ca4444cd4310590b03e8f4a49c07ade2c99c42b1392ba8526fec850e"
+}

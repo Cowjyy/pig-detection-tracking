@@ -1,0 +1,17 @@
+{
+  "status": "design_only_not_runnable_tracker_configs",
+  "methods": [
+    {"name": "ByteTrack", "publication_year": 2022, "official_repo": "https://github.com/FoundationVision/ByteTrack"},
+    {"name": "BoT-SORT", "publication_year": 2022, "official_repo": "https://github.com/NirAharon/BoT-SORT"},
+    {"name": "OC-SORT", "publication_year": 2023, "official_repo": "https://github.com/noahcao/OC_SORT"},
+    {"name": "StrongSORT", "publication_year": 2023, "official_repo": "https://github.com/dyhBUPT/StrongSORT"},
+    {"name": "Deep OC-SORT", "publication_year": 2023, "official_repo": "https://github.com/GerardMaggiolino/Deep-OC-SORT"},
+    {"name": "BoostTrack", "publication_year": 2024, "official_repo": "https://github.com/vukasin-stanojevic/BoostTrack"}
+  ],
+  "evaluation": "https://github.com/JonathonLuiten/TrackEval",
+  "metrics": ["HOTA", "IDF1", "MOTA", "IDSW", "FP", "FN", "association_fps", "end_to_end_fps"],
+  "shared_detector": "select on detection validation set only, then freeze weights and cache identical low-threshold candidates",
+  "reid": "pig-domain weights and protocol pending; pedestrian weights must be disclosed as cross-domain",
+  "test_time_postprocessing": "online variants for main table; offline interpolation or linking must be labeled separately",
+  "pending": ["GT issue protocol", "tuning and test sequences", "official commits", "adapter checks against official implementations", "ReID policy", "confidence cache threshold", "threshold tuning budget"]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "design_only_not_runnable_training_configs",
+  "preferred_framework": "MMDetection; server compatibility must be checked first",
+  "models": [
+    {"name": "Faster R-CNN", "role": "two-stage", "candidate_backbone": "ResNet-50-FPN"},
+    {"name": "RetinaNet", "role": "one-stage anchor-based", "candidate_backbone": "ResNet-50-FPN"},
+    {"name": "FCOS", "role": "one-stage anchor-free", "candidate_backbone": "ResNet-50-FPN"},
+    {"name": "YOLOX", "role": "real-time", "candidate_backbone": "pending GPU budget"},
+    {"name": "RTMDet", "role": "real-time", "candidate_backbone": "pending GPU budget"},
+    {"name": "Deformable DETR", "role": "transformer", "candidate_backbone": "ResNet-50"}
+  ],
+  "seeds": [20261022],
+  "checkpoint_selection": "best validation AP50:95; test set never selects weights",
+  "metrics": ["AP50", "AP50:95", "parameters", "inference_fps"],
+  "pending": ["framework commit", "pretraining dataset and weight SHA256", "input size", "batch size", "training schedule", "augmentation", "optimizer", "GPU and precision"]
+}

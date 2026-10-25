@@ -1,0 +1,7 @@
+model,best_epoch,validation_AP50_95_pct,test_AP50_95_pct,server_relative_checkpoint
+faster_rcnn,19,72.7,71.3,experiments/formal/run_20261022_01/detection/train/faster_rcnn_s20261022/best_coco_bbox_mAP_epoch_19.pth
+retinanet,11,72.2,70.7,experiments/formal/run_20261022_01/detection/train/retinanet_s20261022/best_coco_bbox_mAP_epoch_11.pth
+fcos,6,72.89999999999999,72.1,experiments/formal/run_20261022_01/detection/train/fcos_s20261022/best_coco_bbox_mAP_epoch_6.pth
+yolox,5,75.0,75.0,experiments/formal/run_20261022_01/detection/train/yolox_s20261022/best_coco_bbox_mAP_epoch_5.pth
+rtmdet,71,74.2,71.1,experiments/formal/run_20261022_01/detection/train/rtmdet_s20261022/best_coco_bbox_mAP_epoch_71.pth
+deformable_detr,31,74.5,73.7,experiments/formal/run_20261022_01/detection/train/deformable_detr_s20261022/best_coco_bbox_mAP_epoch_31.pth

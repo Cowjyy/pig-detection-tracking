@@ -1,0 +1,406 @@
+{
+  "exported_utc": "2026-10-25T05:27:56.546691+00:00",
+  "batch": "run_20261022_01",
+  "original_outputs_modified": false,
+  "contains_raw_data": false,
+  "environment_path_normalization": "editable installs use project-relative paths; package versions unchanged",
+  "sources": [
+    {
+      "path": "experiments/formal/run_20261022_01/results/detection_comparison.csv",
+      "sha256": "3dcbbd89578293b6ae16408cca8f703d36ebadc01a0ac9cd4c923423cea95ba9",
+      "bytes": 508
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/results/detection_per_seed.csv",
+      "sha256": "26415be5338f7b9a3dadc8419253a61dc7b785b476817fa8afa03adcadedf77d",
+      "bytes": 490
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/results/results.json",
+      "sha256": "d139c3dbd15522cc5fc01e899c80dd2e113ef50387a78d91ab29134974336e94",
+      "bytes": 13645
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/results/tracking_comparison.csv",
+      "sha256": "f698432c4df32e772f873094909731d91ba6811279109586e817d85a572d54b8",
+      "bytes": 905
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/results/tracking_per_sequence.csv",
+      "sha256": "5dea6d0834c0edca2ac87e10c88db7db1b2e92280c9a408aa78f6abcd727e25f",
+      "bytes": 2389
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/reserve.csv",
+      "sha256": "210d830029fb1a727fb02ed8f65208dd1b4d6878b8be43b161b8c2b5983d58e5",
+      "bytes": 7697
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/reserve.txt",
+      "sha256": "f0caefc591f460af822549f45e5f4918a893c80bdb7a77907e0023d61218b0a8",
+      "bytes": 2380
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/splits.json",
+      "sha256": "1596f3e3f4e01656cd88f9ec48081ce2610a791e2d96abeb9c7b20cc1e06b0a5",
+      "bytes": 15502
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/test.csv",
+      "sha256": "2a09fe2dcaecd17881049c7eb278cfaf2db47b61bce013621a1b2d45a4601a64",
+      "bytes": 8587
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/test.txt",
+      "sha256": "8565addbac41fa8cb3a76275cb54ff4ac35a42c5ba9fcdaef70e161f1bf8fb40",
+      "bytes": 3703
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/train.csv",
+      "sha256": "d2e33d63e15b5fa14cbcca887b8778164083bd5a32adad3effe32d54471eea72",
+      "bytes": 57491
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/train.txt",
+      "sha256": "8e2bd02ecf81c2af8cbe4d3684414527fc7410e8503c570a174e2145ab588640",
+      "bytes": 24986
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/val.csv",
+      "sha256": "806e73c8636e7e4c06d1ce44c12949094d53c9532ca8665acbc37cba5240c1a2",
+      "bytes": 17169
+    },
+    {
+      "path": "datasets/splits/protocol_v2/detection/val.txt",
+      "sha256": "55ced3c14e5623013a68da1d8756cec3717950eff44b17669c24f04c5ab7e5ad",
+      "bytes": 7410
+    },
+    {
+      "path": "datasets/splits/protocol_v2/manifest.json",
+      "sha256": "7747c2b52e977a577b753bc5c11ffd17032e25a37f7ed3d5302d835e9ea29615",
+      "bytes": 344
+    },
+    {
+      "path": "datasets/splits/protocol_v2/tracking/splits.json",
+      "sha256": "b6caec252cb15136590eac4f08287ac4eec50d8eaa8cf17fc6d69104e6d6e19f",
+      "bytes": 6523
+    },
+    {
+      "path": "datasets/splits/protocol_v2/tracking/test.txt",
+      "sha256": "373f5db4526b797320f95b41bb9dfb6084d2b04c9649f994b80cc26b9677333f",
+      "bytes": 25
+    },
+    {
+      "path": "datasets/splits/protocol_v2/tracking/tuning.txt",
+      "sha256": "b4be693cf18d9a3dd559cff62977db941465b3ebe68f92ba2b602b69ba0a3422",
+      "bytes": 10
+    },
+    {
+      "path": "experiments/preparation/audit_20261022_03/raw_inventory.json",
+      "sha256": "5a14635a918ca441984d930a6e7012033e73d45b9301021db6a7901ba0340c51",
+      "bytes": 421231
+    },
+    {
+      "path": "experiments/report_refinement_20261023/figures/detection_accuracy_speed.png",
+      "sha256": "1bb3cc965b953ab733809a41f38c195eeb8b8182e4bc2aff4d68dad32b26027d",
+      "bytes": 65310
+    },
+    {
+      "path": "experiments/report_refinement_20261023/figures/tracking_accuracy_speed.png",
+      "sha256": "fbdccad7f613327a370188cee133281bb5b04be23938e404e774887a80c6ca1b",
+      "bytes": 73344
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/bytetrack/frozen_parameters.json",
+      "sha256": "59ee17554cce28b0b09ad374b3de5ac0f1dbef300ef5654fff3ef90397e95e87",
+      "bytes": 1306
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/botsort/frozen_parameters.json",
+      "sha256": "f7c55ab99475c5b0838bbec5f66efe2538ef144d320a618a8d21ff72bc1cacaf",
+      "bytes": 1427
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/ocsort/frozen_parameters.json",
+      "sha256": "db3011c3d7f48f4e3e5c460ef541fd1efed7f4755eae51e33183dd38e1213dee",
+      "bytes": 1399
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/strongsort/frozen_parameters.json",
+      "sha256": "e802641d6c006d62d3032b64ec0138343a32857284c6f7a36040aeb89b7dd37d",
+      "bytes": 1366
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/deepocsort/frozen_parameters.json",
+      "sha256": "cbc22781eff62f1046a9abf4eed18ff6837e6bed3a31e3fc4617ec373ea81c2b",
+      "bytes": 1542
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/frozen/boosttrack/frozen_parameters.json",
+      "sha256": "48ed010fb8e7a36b69886be4f9f4313fb794e7f9055f3e604730a1ca6ff7396e",
+      "bytes": 1625
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/bytetrack/bytetrack/trackeval/pedestrian_detailed.csv",
+      "sha256": "3b179da658502159723aa8aeaee49910f5b387d31204b56075c1cd9da5131852",
+      "bytes": 27155
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/bytetrack_trial0/metrics.json",
+      "sha256": "d1f9b320ceed7d86910210ff1718b1daf6283a6e8a115300c5288f4905dd3d13",
+      "bytes": 1440
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/bytetrack_trial1/metrics.json",
+      "sha256": "2804f4415cc427357cf5eccc005b4db752ebd016fa662db36f293eb74493e172",
+      "bytes": 1440
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/bytetrack_trial2/metrics.json",
+      "sha256": "d50f26251eaccf6c55ba5558e01ef2e4705036b8bec8ecf9d23b9aca7b3b3126",
+      "bytes": 1439
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/botsort/botsort/trackeval/pedestrian_detailed.csv",
+      "sha256": "2ff1daaca9bd06fd9ffa76b713c54aa17ccb27765406df026b52d62b4b6182f2",
+      "bytes": 27180
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/botsort_trial0/metrics.json",
+      "sha256": "662c4d0b0fc3d658cf350dc36f43131d066a098c53f59e396e24ea2e62391698",
+      "bytes": 1438
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/botsort_trial1/metrics.json",
+      "sha256": "7d3aac05c2e324bee27c834a60e1ebf0efb4a61b0e851f550afea56032ef2f57",
+      "bytes": 1435
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/botsort_trial2/metrics.json",
+      "sha256": "66363527c446375523573a9248e9e6e66e10efad60a6504875de478379eb21ef",
+      "bytes": 1441
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/ocsort/ocsort/trackeval/pedestrian_detailed.csv",
+      "sha256": "943f0085592a741d784bc6c198fc733ba1aa001b8b433f3a34fd1508a2b35fd9",
+      "bytes": 28026
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/ocsort_trial0/metrics.json",
+      "sha256": "e46e9578def7c633e42d5ff072f839ebca48a6957b42a89f6e48c9be01922169",
+      "bytes": 1441
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/ocsort_trial1/metrics.json",
+      "sha256": "aefc0ea152e897150913b6fec9679a5726a5b16ca5db0cd8f89f4109d15fb9ac",
+      "bytes": 1441
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/ocsort_trial2/metrics.json",
+      "sha256": "d8430504d9e2c055ebcc910fe315590060fcb0245d3dbb438324cadb1db28192",
+      "bytes": 1437
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/strongsort/strongsort/trackeval/pedestrian_detailed.csv",
+      "sha256": "b66bdcdd6f4876cc49f8f76e83c1db7e1e58dc2d471d208f7082fa25b565a6ce",
+      "bytes": 28309
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/strongsort_trial0/metrics.json",
+      "sha256": "79357c8766f1844368ca0e6b372eac28299adf8d6dc6ed14746819f36b33cc1d",
+      "bytes": 1437
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/strongsort_trial1/metrics.json",
+      "sha256": "fbdecd187dbc659013d70d69775a973ae1e66faa5e02acbc0ec85087e823c251",
+      "bytes": 1440
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/strongsort_trial2/metrics.json",
+      "sha256": "70d299049c127e8fad411aa88b2baa4f7203544005b872e4da4e0bbf6fc0736a",
+      "bytes": 1438
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/deepocsort/deepocsort/trackeval/pedestrian_detailed.csv",
+      "sha256": "cab98ce55bda19ca7f62a4f132b0c7a342dca52462e07d97121a4e98c24b9b8c",
+      "bytes": 27705
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/deepocsort_trial0/metrics.json",
+      "sha256": "7f19ecd185a5be65a1981f30a909597677b1b9cba01ca6c8019adebd7d00de41",
+      "bytes": 1440
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/deepocsort_trial1/metrics.json",
+      "sha256": "ebc198cb7d7830837915ec194ea836d73cf6afdbe14f0abfb7bd5ae56fe610d9",
+      "bytes": 1442
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/deepocsort_trial2/metrics.json",
+      "sha256": "3d3dc595b77b2983ab6bbcb1c583e93bb64d69369e0b034accb5cc3bdd22426c",
+      "bytes": 1440
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/test_eval/boosttrack/boosttrack/trackeval/pedestrian_detailed.csv",
+      "sha256": "cb299718de7048d158e21e51bba9743a0f3efffea161e86b70898c4638eebc9f",
+      "bytes": 28094
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/boosttrack_trial0/metrics.json",
+      "sha256": "270fc14b5ad132da0d28b35bafdb0126eae149fc6b3a6607d1006720814d0cd0",
+      "bytes": 1441
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/boosttrack_trial1/metrics.json",
+      "sha256": "7591587bfca66e58d9f549a5c09d3fcae637873d1419ef8b6f5ea86de4c32527",
+      "bytes": 1446
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/tracking/tuning_eval/boosttrack_trial2/metrics.json",
+      "sha256": "413515f8392d5643f86200a1e5ae3bdf2f858da413e51fa39a19eb055c717251",
+      "bytes": 1435
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/faster_rcnn_s20261022/run.json",
+      "sha256": "623911e20a8aa60152fe265a66adf6eb03e00c56aba62a9aab95a311d0ee8050",
+      "bytes": 1507
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/retinanet_s20261022/run.json",
+      "sha256": "3737ae04523eb5f8987ae4d70958f49155144e35cf31d0c6ee99682d5bbf3433",
+      "bytes": 1501
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/fcos_s20261022/run.json",
+      "sha256": "ec66d6ab5dcd2cdd1f51139aad55c7aa08e4600fc0a7f156a80fdf04c25a85db",
+      "bytes": 1485
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/run.json",
+      "sha256": "37c5198e070139c3f144745fa771eab2f97d049607044754b8011233d8fa956e",
+      "bytes": 1487
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/rtmdet_s20261022/run.json",
+      "sha256": "9ebf0ab0cee588a81420ec721a51597fd0dd04d44efca4d7b3a99d1f86276886",
+      "bytes": 1491
+    },
+    {
+      "path": "experiments/formal/run_20261022_01/detection/train/deformable_detr_s20261022/run.json",
+      "sha256": "840e66fe0fc10e6669be106c192468cce67315e40cee14f23f110ccf6cb75c6a",
+      "bytes": 1519
+    },
+    {
+      "path": "experiments/setup/detection.lock.txt",
+      "sha256": "5db7b38794910a7682a4cf280ce433041bd8ff360602e0d1a65cef1de3724d6e",
+      "bytes": 881
+    },
+    {
+      "path": "experiments/setup/tracking.lock.txt",
+      "sha256": "5f80e514a21fb0df89ab95f792d2efa22329019cb5eb9857b88f7c4690f3e69f",
+      "bytes": 1561
+    },
+    {
+      "path": "configs/upstream_sources.json",
+      "sha256": "491d49c8e69a005fe8261df34ee1e3b491bcbff8199a0529063e171a9bf4c82c",
+      "bytes": 493
+    }
+  ],
+  "exports": [
+    {
+      "path": "experiments/results/run_20261022_01/detection_comparison.csv",
+      "sha256": "3dcbbd89578293b6ae16408cca8f703d36ebadc01a0ac9cd4c923423cea95ba9",
+      "bytes": 508
+    },
+    {
+      "path": "experiments/results/run_20261022_01/detection_per_seed.csv",
+      "sha256": "26415be5338f7b9a3dadc8419253a61dc7b785b476817fa8afa03adcadedf77d",
+      "bytes": 490
+    },
+    {
+      "path": "experiments/results/run_20261022_01/detector_selection.csv",
+      "sha256": "79eaa65c3280e71299d313bec2887859e759dff0c7668e59d321f08cee6d24cd",
+      "bytes": 841
+    },
+    {
+      "path": "experiments/results/run_20261022_01/environment/detection.lock.txt",
+      "sha256": "121a9f2b42bba0505683140341a3b8d29c45804d691aea4eebb8908b4850d7bc",
+      "bytes": 863
+    },
+    {
+      "path": "experiments/results/run_20261022_01/environment/tracking.lock.txt",
+      "sha256": "95218de5a96426a3e9f383b5b8dcd4dbf52f26c8b934dfbabbffa60cbf5e09ac",
+      "bytes": 1543
+    },
+    {
+      "path": "experiments/results/run_20261022_01/figures/detection_accuracy_speed.png",
+      "sha256": "1bb3cc965b953ab733809a41f38c195eeb8b8182e4bc2aff4d68dad32b26027d",
+      "bytes": 65310
+    },
+    {
+      "path": "experiments/results/run_20261022_01/figures/tracking_accuracy_speed.png",
+      "sha256": "fbdccad7f613327a370188cee133281bb5b04be23938e404e774887a80c6ca1b",
+      "bytes": 73344
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/boosttrack.json",
+      "sha256": "48ed010fb8e7a36b69886be4f9f4313fb794e7f9055f3e604730a1ca6ff7396e",
+      "bytes": 1625
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/botsort.json",
+      "sha256": "f7c55ab99475c5b0838bbec5f66efe2538ef144d320a618a8d21ff72bc1cacaf",
+      "bytes": 1427
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/bytetrack.json",
+      "sha256": "59ee17554cce28b0b09ad374b3de5ac0f1dbef300ef5654fff3ef90397e95e87",
+      "bytes": 1306
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/deepocsort.json",
+      "sha256": "cbc22781eff62f1046a9abf4eed18ff6837e6bed3a31e3fc4617ec373ea81c2b",
+      "bytes": 1542
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/ocsort.json",
+      "sha256": "db3011c3d7f48f4e3e5c460ef541fd1efed7f4755eae51e33183dd38e1213dee",
+      "bytes": 1399
+    },
+    {
+      "path": "experiments/results/run_20261022_01/frozen_parameters/strongsort.json",
+      "sha256": "e802641d6c006d62d3032b64ec0138343a32857284c6f7a36040aeb89b7dd37d",
+      "bytes": 1366
+    },
+    {
+      "path": "experiments/results/run_20261022_01/README.md",
+      "sha256": "a060deff48f5e4b4b0bd93da435335ea5f226fa7eaa6ad301c69db2a1ac433c4",
+      "bytes": 1692
+    },
+    {
+      "path": "experiments/results/run_20261022_01/results.json",
+      "sha256": "d139c3dbd15522cc5fc01e899c80dd2e113ef50387a78d91ab29134974336e94",
+      "bytes": 13645
+    },
+    {
+      "path": "experiments/results/run_20261022_01/tracking_comparison.csv",
+      "sha256": "f698432c4df32e772f873094909731d91ba6811279109586e817d85a572d54b8",
+      "bytes": 905
+    },
+    {
+      "path": "experiments/results/run_20261022_01/tracking_decomposition.csv",
+      "sha256": "7a20c8e8457f2f769d5d96385c23570d415eabd9abb1232b2606ec277538df1a",
+      "bytes": 320
+    },
+    {
+      "path": "experiments/results/run_20261022_01/tracking_per_sequence.csv",
+      "sha256": "5dea6d0834c0edca2ac87e10c88db7db1b2e92280c9a408aa78f6abcd727e25f",
+      "bytes": 2389
+    },
+    {
+      "path": "experiments/results/run_20261022_01/tracking_tuning.csv",
+      "sha256": "bd04189f3af1c6e1c10fd397176f35ae5d587fbc4049b4fe137dab3783c134a5",
+      "bytes": 1330
+    }
+  ]
+}

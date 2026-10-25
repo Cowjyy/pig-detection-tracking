@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "frozen_tracker_parameters",
+  "method": "boosttrack",
+  "selected_on": "tuning",
+  "parameters": {
+    "max_age": 60,
+    "min_hits": 3,
+    "det_thresh": 0.8,
+    "iou_threshold": 0.3,
+    "use_ecc": true,
+    "min_box_area": 10,
+    "aspect_ratio_thresh": 1.6,
+    "lambda_iou": 0.5,
+    "lambda_mhd": 0.25,
+    "lambda_shape": 0.25,
+    "use_dlo_boost": true,
+    "use_duo_boost": true,
+    "dlo_boost_coef": 0.65,
+    "s_sim_corr": false,
+    "use_rich_s": false,
+    "use_sb": false,
+    "use_vt": false,
+    "with_reid": false
+  },
+  "selected_tracking_run": "experiments/formal/run_20261022_01/tracking/tuning/boosttrack_trial2",
+  "selected_evaluation": "experiments/formal/run_20261022_01/tracking/tuning_eval/boosttrack_trial2",
+  "metrics": {
+    "HOTA": 0.688261439248886,
+    "HOTA_at_0_5": 0.8452918335909223,
+    "DetA_at_0_5": 0.8504666688809911,
+    "AssA_at_0_5": 0.8401484856257061,
+    "IDF1": 0.870728029867892,
+    "MOTA": 0.8507368351019593,
+    "IDSW": 7,
+    "FP": 35,
+    "FN": 4445
+  },
+  "detector_cache": {
+    "path": "experiments/formal/run_20261022_01/cache/tuning/cache.json",
+    "sha256": "2e60533214aff254739338b06ea7d8f7516886401bd92b3e76f0bfdcfba319df"
+  },
+  "detector_checkpoint": {
+    "path": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/best_coco_bbox_mAP_epoch_5.pth",
+    "sha256": "f1a093f2d8bee945abd7e65f110ef7d69a8b82c9ea6f5403511e4f2676bc275c"
+  },
+  "protocol": {
+    "path": "datasets/splits/protocol_v2/tracking/splits.json",
+    "sha256": "b6caec252cb15136590eac4f08287ac4eec50d8eaa8cf17fc6d69104e6d6e19f"
+  }
+}

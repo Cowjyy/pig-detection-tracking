@@ -1,0 +1,565 @@
+{
+  "detection_per_seed": [
+    {
+      "model": "faster_rcnn",
+      "method": "Faster R-CNN R50-FPN",
+      "seed": 20261022,
+      "AP50_pct": 98.6,
+      "AP50_95_pct": 71.3,
+      "parameters": 41348181,
+      "FPS": 60.00644073103351
+    },
+    {
+      "model": "retinanet",
+      "method": "RetinaNet R50-FPN",
+      "seed": 20261022,
+      "AP50_pct": 98.5,
+      "AP50_95_pct": 70.7,
+      "parameters": 36329837,
+      "FPS": 64.18023455748626
+    },
+    {
+      "model": "fcos",
+      "method": "FCOS R50-Caffe-FPN",
+      "seed": 20261022,
+      "AP50_pct": 98.8,
+      "AP50_95_pct": 72.1,
+      "parameters": 32113227,
+      "FPS": 67.05918351823044
+    },
+    {
+      "model": "yolox",
+      "method": "YOLOX-S",
+      "seed": 20261022,
+      "AP50_pct": 98.0,
+      "AP50_95_pct": 75.0,
+      "parameters": 8937682,
+      "FPS": 190.95780375281137
+    },
+    {
+      "model": "rtmdet",
+      "method": "RTMDet-S",
+      "seed": 20261022,
+      "AP50_pct": 98.4,
+      "AP50_95_pct": 71.1,
+      "parameters": 8856351,
+      "FPS": 147.6385278621014
+    },
+    {
+      "model": "deformable_detr",
+      "method": "Deformable DETR R50",
+      "seed": 20261022,
+      "AP50_pct": 98.1,
+      "AP50_95_pct": 73.7,
+      "parameters": 40098631,
+      "FPS": 38.19041709474345
+    }
+  ],
+  "detection": [
+    {
+      "model": "faster_rcnn",
+      "method": "Faster R-CNN R50-FPN",
+      "seeds": 1,
+      "parameters": 41348181,
+      "seed": 20261022,
+      "AP50_pct": 98.6,
+      "AP50_95_pct": 71.3,
+      "FPS": 60.00644073103351
+    },
+    {
+      "model": "retinanet",
+      "method": "RetinaNet R50-FPN",
+      "seeds": 1,
+      "parameters": 36329837,
+      "seed": 20261022,
+      "AP50_pct": 98.5,
+      "AP50_95_pct": 70.7,
+      "FPS": 64.18023455748626
+    },
+    {
+      "model": "fcos",
+      "method": "FCOS R50-Caffe-FPN",
+      "seeds": 1,
+      "parameters": 32113227,
+      "seed": 20261022,
+      "AP50_pct": 98.8,
+      "AP50_95_pct": 72.1,
+      "FPS": 67.05918351823044
+    },
+    {
+      "model": "yolox",
+      "method": "YOLOX-S",
+      "seeds": 1,
+      "parameters": 8937682,
+      "seed": 20261022,
+      "AP50_pct": 98.0,
+      "AP50_95_pct": 75.0,
+      "FPS": 190.95780375281137
+    },
+    {
+      "model": "rtmdet",
+      "method": "RTMDet-S",
+      "seeds": 1,
+      "parameters": 8856351,
+      "seed": 20261022,
+      "AP50_pct": 98.4,
+      "AP50_95_pct": 71.1,
+      "FPS": 147.6385278621014
+    },
+    {
+      "model": "deformable_detr",
+      "method": "Deformable DETR R50",
+      "seeds": 1,
+      "parameters": 40098631,
+      "seed": 20261022,
+      "AP50_pct": 98.1,
+      "AP50_95_pct": 73.7,
+      "FPS": 38.19041709474345
+    }
+  ],
+  "tracking": [
+    {
+      "method": "bytetrack",
+      "name": "ByteTrack",
+      "HOTA_pct": 76.42845725170592,
+      "IDF1_pct": 96.8275743805196,
+      "MOTA_pct": 96.07235658604837,
+      "IDSW": 1,
+      "FP": 1311,
+      "FN": 1439,
+      "association_FPS": 1331.9604708015797,
+      "detector_plus_tracker_FPS": 154.97577896765245
+    },
+    {
+      "method": "botsort",
+      "name": "BoT-SORT + frozen OSNet",
+      "HOTA_pct": 77.87785291519909,
+      "IDF1_pct": 98.05873710935829,
+      "MOTA_pct": 96.11376031523943,
+      "IDSW": 0,
+      "FP": 1428,
+      "FN": 1294,
+      "association_FPS": 99.01231457585082,
+      "detector_plus_tracker_FPS": 63.284722709141114
+    },
+    {
+      "method": "ocsort",
+      "name": "OC-SORT",
+      "HOTA_pct": 75.76745762366048,
+      "IDF1_pct": 93.60055306502078,
+      "MOTA_pct": 95.90103081008537,
+      "IDSW": 12,
+      "FP": 1542,
+      "FN": 1317,
+      "association_FPS": 1427.3422414992615,
+      "detector_plus_tracker_FPS": 156.19018380790385
+    },
+    {
+      "method": "strongsort",
+      "name": "StrongSORT (online)",
+      "HOTA_pct": 76.0575453817436,
+      "IDF1_pct": 94.85084038103923,
+      "MOTA_pct": 95.61691556494675,
+      "IDSW": 25,
+      "FP": 1657,
+      "FN": 1388,
+      "association_FPS": 73.16954867016292,
+      "detector_plus_tracker_FPS": 51.629595708384926
+    },
+    {
+      "method": "deepocsort",
+      "name": "Deep OC-SORT + frozen OSNet",
+      "HOTA_pct": 76.74392434780405,
+      "IDF1_pct": 95.74097597876197,
+      "MOTA_pct": 96.04237457525485,
+      "IDSW": 14,
+      "FP": 1400,
+      "FN": 1358,
+      "association_FPS": 108.52202023448729,
+      "detector_plus_tracker_FPS": 67.03954998443108
+    },
+    {
+      "method": "boosttrack",
+      "name": "BoostTrack base (not BoostTrack++)",
+      "HOTA_pct": 57.307018618812,
+      "IDF1_pct": 75.35357719872405,
+      "MOTA_pct": 70.66759944033579,
+      "IDSW": 24,
+      "FP": 566,
+      "FN": 19955,
+      "association_FPS": 191.95304983808288,
+      "detector_plus_tracker_FPS": 91.64680235552939
+    }
+  ],
+  "tracking_per_sequence": [
+    {
+      "method": "bytetrack",
+      "sequence": "192",
+      "HOTA_pct": 72.79279254928163,
+      "IDF1_pct": 96.1627320285737,
+      "MOTA_pct": 92.32607541157726,
+      "IDSW": 0,
+      "FP": 721,
+      "FN": 724
+    },
+    {
+      "method": "bytetrack",
+      "sequence": "193",
+      "HOTA_pct": 72.45181095238902,
+      "IDF1_pct": 90.97271872060207,
+      "MOTA_pct": 94.67286914765907,
+      "IDSW": 1,
+      "FP": 314,
+      "FN": 395
+    },
+    {
+      "method": "bytetrack",
+      "sequence": "195",
+      "HOTA_pct": 81.67605679092362,
+      "IDF1_pct": 99.54128440366972,
+      "MOTA_pct": 99.08531515050724,
+      "IDSW": 0,
+      "FP": 19,
+      "FN": 91
+    },
+    {
+      "method": "bytetrack",
+      "sequence": "196",
+      "HOTA_pct": 78.69239138664207,
+      "IDF1_pct": 99.1193256983029,
+      "MOTA_pct": 98.23230407404597,
+      "IDSW": 0,
+      "FP": 164,
+      "FN": 69
+    },
+    {
+      "method": "bytetrack",
+      "sequence": "197",
+      "HOTA_pct": 78.19545747510796,
+      "IDF1_pct": 98.9994859018468,
+      "MOTA_pct": 98.00425968289026,
+      "IDSW": 0,
+      "FP": 93,
+      "FN": 160
+    },
+    {
+      "method": "botsort",
+      "sequence": "192",
+      "HOTA_pct": 73.3087649854945,
+      "IDF1_pct": 96.22922088268096,
+      "MOTA_pct": 92.45884227296867,
+      "IDSW": 0,
+      "FP": 709,
+      "FN": 711
+    },
+    {
+      "method": "botsort",
+      "sequence": "193",
+      "HOTA_pct": 76.2392179183944,
+      "IDF1_pct": 97.61135731991287,
+      "MOTA_pct": 95.22809123649459,
+      "IDSW": 0,
+      "FP": 303,
+      "FN": 333
+    },
+    {
+      "method": "botsort",
+      "sequence": "195",
+      "HOTA_pct": 83.37317731033342,
+      "IDF1_pct": 99.58298582151794,
+      "MOTA_pct": 99.16846831864294,
+      "IDSW": 0,
+      "FP": 14,
+      "FN": 86
+    },
+    {
+      "method": "botsort",
+      "sequence": "196",
+      "HOTA_pct": 78.76331558998554,
+      "IDF1_pct": 98.54212068835952,
+      "MOTA_pct": 97.05636901600789,
+      "IDSW": 0,
+      "FP": 320,
+      "FN": 68
+    },
+    {
+      "method": "botsort",
+      "sequence": "197",
+      "HOTA_pct": 79.78505421590395,
+      "IDF1_pct": 99.29755327545384,
+      "MOTA_pct": 98.59588230653941,
+      "IDSW": 0,
+      "FP": 82,
+      "FN": 96
+    },
+    {
+      "method": "ocsort",
+      "sequence": "192",
+      "HOTA_pct": 68.23655485337174,
+      "IDF1_pct": 85.95370051178702,
+      "MOTA_pct": 91.8428040361126,
+      "IDSW": 9,
+      "FP": 789,
+      "FN": 738
+    },
+    {
+      "method": "ocsort",
+      "sequence": "193",
+      "HOTA_pct": 73.22515880529771,
+      "IDF1_pct": 90.80675422138836,
+      "MOTA_pct": 95.02551020408163,
+      "IDSW": 1,
+      "FP": 328,
+      "FN": 334
+    },
+    {
+      "method": "ocsort",
+      "sequence": "195",
+      "HOTA_pct": 83.32741034595195,
+      "IDF1_pct": 99.47923176269633,
+      "MOTA_pct": 98.96058539830368,
+      "IDSW": 0,
+      "FP": 38,
+      "FN": 87
+    },
+    {
+      "method": "ocsort",
+      "sequence": "196",
+      "HOTA_pct": 78.48883839608465,
+      "IDF1_pct": 98.0316886831508,
+      "MOTA_pct": 97.32948941658448,
+      "IDSW": 1,
+      "FP": 280,
+      "FN": 71
+    },
+    {
+      "method": "ocsort",
+      "sequence": "197",
+      "HOTA_pct": 78.74046288144086,
+      "IDF1_pct": 97.69843146527943,
+      "MOTA_pct": 98.46178117851227,
+      "IDSW": 1,
+      "FP": 107,
+      "FN": 87
+    },
+    {
+      "method": "strongsort",
+      "sequence": "192",
+      "HOTA_pct": 70.03096674770019,
+      "IDF1_pct": 89.12501987386719,
+      "MOTA_pct": 91.49761019649495,
+      "IDSW": 15,
+      "FP": 832,
+      "FN": 754
+    },
+    {
+      "method": "strongsort",
+      "sequence": "193",
+      "HOTA_pct": 74.26300401037814,
+      "IDF1_pct": 94.03690369036903,
+      "MOTA_pct": 94.68037214885955,
+      "IDSW": 1,
+      "FP": 358,
+      "FN": 350
+    },
+    {
+      "method": "strongsort",
+      "sequence": "195",
+      "HOTA_pct": 83.21082120643045,
+      "IDF1_pct": 99.36257967754031,
+      "MOTA_pct": 98.7277565275237,
+      "IDSW": 0,
+      "FP": 52,
+      "FN": 101
+    },
+    {
+      "method": "strongsort",
+      "sequence": "196",
+      "HOTA_pct": 78.69902103474799,
+      "IDF1_pct": 98.52913516156943,
+      "MOTA_pct": 97.0487823382141,
+      "IDSW": 2,
+      "FP": 304,
+      "FN": 83
+    },
+    {
+      "method": "strongsort",
+      "sequence": "197",
+      "HOTA_pct": 76.75053079941566,
+      "IDF1_pct": 96.10092647348709,
+      "MOTA_pct": 98.2803502405932,
+      "IDSW": 7,
+      "FP": 111,
+      "FN": 100
+    },
+    {
+      "method": "deepocsort",
+      "sequence": "192",
+      "HOTA_pct": 70.9130450468893,
+      "IDF1_pct": 92.24762967094256,
+      "MOTA_pct": 91.98088157195964,
+      "IDSW": 11,
+      "FP": 746,
+      "FN": 753
+    },
+    {
+      "method": "deepocsort",
+      "sequence": "193",
+      "HOTA_pct": 73.22640750373809,
+      "IDF1_pct": 90.81141998497371,
+      "MOTA_pct": 95.05552220888356,
+      "IDSW": 3,
+      "FP": 310,
+      "FN": 346
+    },
+    {
+      "method": "deepocsort",
+      "sequence": "195",
+      "HOTA_pct": 83.37879024869656,
+      "IDF1_pct": 99.55789122455789,
+      "MOTA_pct": 99.11857641776152,
+      "IDSW": 0,
+      "FP": 15,
+      "FN": 91
+    },
+    {
+      "method": "deepocsort",
+      "sequence": "196",
+      "HOTA_pct": 79.01731981953365,
+      "IDF1_pct": 98.83541250518223,
+      "MOTA_pct": 97.65571656171763,
+      "IDSW": 0,
+      "FP": 240,
+      "FN": 69
+    },
+    {
+      "method": "deepocsort",
+      "sequence": "197",
+      "HOTA_pct": 79.7659261660455,
+      "IDF1_pct": 99.25820707070707,
+      "MOTA_pct": 98.51699929005285,
+      "IDSW": 0,
+      "FP": 89,
+      "FN": 99
+    },
+    {
+      "method": "boosttrack",
+      "sequence": "192",
+      "HOTA_pct": 52.811436855857195,
+      "IDF1_pct": 68.92260061919505,
+      "MOTA_pct": 67.5092936802974,
+      "IDSW": 12,
+      "FP": 373,
+      "FN": 5733
+    },
+    {
+      "method": "boosttrack",
+      "sequence": "193",
+      "HOTA_pct": 53.60514577639142,
+      "IDF1_pct": 70.89383809564366,
+      "MOTA_pct": 74.10714285714286,
+      "IDSW": 8,
+      "FP": 135,
+      "FN": 3308
+    },
+    {
+      "method": "boosttrack",
+      "sequence": "195",
+      "HOTA_pct": 70.22742510557612,
+      "IDF1_pct": 88.36832147040275,
+      "MOTA_pct": 84.43372692499584,
+      "IDSW": 2,
+      "FP": 8,
+      "FN": 1862
+    },
+    {
+      "method": "boosttrack",
+      "sequence": "196",
+      "HOTA_pct": 63.31965554306945,
+      "IDF1_pct": 83.22346179851252,
+      "MOTA_pct": 78.89386237766483,
+      "IDSW": 2,
+      "FP": 41,
+      "FN": 2739
+    },
+    {
+      "method": "boosttrack",
+      "sequence": "197",
+      "HOTA_pct": 45.89939493186285,
+      "IDF1_pct": 66.81364829396325,
+      "MOTA_pct": 50.13015697720281,
+      "IDSW": 0,
+      "FP": 9,
+      "FN": 6313
+    }
+  ],
+  "data_protocol": {
+    "path": "configs/data.json",
+    "sha256": "bb2b3c7853dd129180082c443d7c98af86ccdcebcd951eaa53c4c0b6be39b781"
+  },
+  "selected_detector": {
+    "model": "yolox",
+    "seed": 20261022,
+    "checkpoint": {
+      "path": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/best_coco_bbox_mAP_epoch_5.pth",
+      "sha256": "f1a093f2d8bee945abd7e65f110ef7d69a8b82c9ea6f5403511e4f2676bc275c"
+    },
+    "training_run": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022",
+    "validation_run": "experiments/formal/run_20261022_01/detection/val/yolox_s20261022",
+    "config": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/config.py",
+    "selection_metric": "validation AP50:95 at fixed seed 20261022",
+    "candidates": {
+      "faster_rcnn": {
+        "mean_ap": 0.727,
+        "seeds": [
+          20261022
+        ]
+      },
+      "retinanet": {
+        "mean_ap": 0.722,
+        "seeds": [
+          20261022
+        ]
+      },
+      "fcos": {
+        "mean_ap": 0.729,
+        "seeds": [
+          20261022
+        ]
+      },
+      "yolox": {
+        "mean_ap": 0.75,
+        "seeds": [
+          20261022
+        ]
+      },
+      "rtmdet": {
+        "mean_ap": 0.742,
+        "seeds": [
+          20261022
+        ]
+      },
+      "deformable_detr": {
+        "mean_ap": 0.745,
+        "seeds": [
+          20261022
+        ]
+      }
+    },
+    "compared_models": 6,
+    "data_split": {
+      "path": "datasets/splits/protocol_v2/detection/splits.json",
+      "sha256": "1596f3e3f4e01656cd88f9ec48081ce2610a791e2d96abeb9c7b20cc1e06b0a5"
+    }
+  },
+  "seeds": [
+    20261022
+  ],
+  "seed_protocol": "fixed_single_seed",
+  "AP_units": "percent",
+  "std": "not_estimated_single_run",
+  "overall_tracking_metrics": "TrackEval COMBINED_SEQ, never arithmetic means of per-sequence percentages",
+  "speed_scope": "serial FP32 batch 1; decode excluded; detector+tracker is not live end-to-end FPS",
+  "source_independence_verified": false,
+  "gt_protocol": "mot_clean_v1"
+}

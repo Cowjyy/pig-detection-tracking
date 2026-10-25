@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "frozen_tracker_parameters",
+  "method": "deepocsort",
+  "selected_on": "tuning",
+  "parameters": {
+    "det_thresh": 0.5,
+    "max_age": 30,
+    "min_hits": 3,
+    "iou_thresh": 0.3,
+    "delta_t": 3,
+    "asso_func": "iou",
+    "inertia": 0.2,
+    "w_association_emb": 0.75,
+    "alpha_fixed_emb": 0.95,
+    "aw_param": 0.5,
+    "embedding_off": false,
+    "cmc_off": false,
+    "aw_off": false,
+    "Q_xy_scaling": 0.01,
+    "Q_s_scaling": 0.0001
+  },
+  "selected_tracking_run": "experiments/formal/run_20261022_01/tracking/tuning/deepocsort_trial0",
+  "selected_evaluation": "experiments/formal/run_20261022_01/tracking/tuning_eval/deepocsort_trial0",
+  "metrics": {
+    "HOTA": 0.7775044065253426,
+    "HOTA_at_0_5": 0.9578196901310569,
+    "DetA_at_0_5": 0.984993719838699,
+    "AssA_at_0_5": 0.9313953381885409,
+    "IDF1": 0.9467812302261298,
+    "MOTA": 0.9853963607331758,
+    "IDSW": 7,
+    "FP": 182,
+    "FN": 250
+  },
+  "detector_cache": {
+    "path": "experiments/formal/run_20261022_01/cache/tuning/cache.json",
+    "sha256": "2e60533214aff254739338b06ea7d8f7516886401bd92b3e76f0bfdcfba319df"
+  },
+  "detector_checkpoint": {
+    "path": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/best_coco_bbox_mAP_epoch_5.pth",
+    "sha256": "f1a093f2d8bee945abd7e65f110ef7d69a8b82c9ea6f5403511e4f2676bc275c"
+  },
+  "protocol": {
+    "path": "datasets/splits/protocol_v2/tracking/splits.json",
+    "sha256": "b6caec252cb15136590eac4f08287ac4eec50d8eaa8cf17fc6d69104e6d6e19f"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "mmdetection": {"repo": "open-mmlab/mmdetection", "commit": "44ebd17b145c2372c4b700bfb9cb20dbd28ab64a", "version": "3.3.0", "license": "Apache-2.0"},
+  "boxmot": {"repo": "mikel-brostrom/boxmot", "commit": "e01173540486272294d36107a664db77b0923070", "version": "12.0.4 (upstream tag v12.0.5)", "license": "AGPL-3.0"},
+  "TrackEval": {"repo": "JonathonLuiten/TrackEval", "commit": "12c8791b303e0a0b50f753af204249e622d0281a", "version": "commit-pinned", "license": "see upstream LICENSE"}
+}

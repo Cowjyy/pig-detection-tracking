@@ -1,0 +1,39 @@
+{
+  "project_root": ".",
+  "detection": {
+    "images": "pig-objection detection/data",
+    "annotations": "pig-objection detection/label",
+    "class_names": ["pig"],
+    "split_status": "protocol_v2_buffered_content_guarded_within_scene",
+    "split_manifest": "datasets/splits/protocol_v2/detection/splits.json",
+    "split_strategy": "numeric_order_with_20_image_boundary_gaps_and_similarity_quarantine",
+    "evaluation_scope": "same_scene_holdout_not_source_independent_generalization",
+    "source_independence_verified": false,
+    "content_overlap_report": "experiments/preparation/content_overlap_v2/summary.json",
+    "reserve_count": 63,
+    "target_ratios": {"train": 0.7, "val": 0.2, "test": 0.1},
+    "seed": null,
+    "coordinate_convention": "voc_1based_inclusive",
+    "coordinate_policy_status": "explicit_standard_voc_protocol_supported_by_file_evidence",
+    "coordinate_review": "experiments/preparation/coordinate_review_v1/review.json",
+    "original_annotation_tool_verified": false,
+    "difficult_policy": "include"
+  },
+  "tracking": {
+    "root": "PIG_MOT_TEST_DATA",
+    "sequences": ["191", "192", "193", "194", "195", "196", "197"],
+    "nested_duplicate_directory": "exclude_if_present",
+    "gt_class_id": 1,
+    "gt_class_name": "pig",
+    "tuning_sequences": ["191", "194"],
+    "test_sequences": ["192", "193", "195", "196", "197"],
+    "blocked_test_sequences": [],
+    "split_manifest": "datasets/splits/protocol_v2/tracking/splits.json",
+    "split_status": "derived_gt_geometry_valid_within_scene_protocol",
+    "invalid_gt_policy": "use_verified_derived_manifest_never_modify_raw",
+    "gt_manifest": "datasets/annotations/mot_clean_v1/manifest.json",
+    "prepared_metadata": "datasets/processed/mot/clean_v1/sources.json",
+    "gt_protocol": "mot_clean_v1",
+    "source_independence_verified": false
+  }
+}

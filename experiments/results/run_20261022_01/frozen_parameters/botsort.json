@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "kind": "frozen_tracker_parameters",
+  "method": "botsort",
+  "selected_on": "tuning",
+  "parameters": {
+    "track_high_thresh": 0.6,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.7,
+    "track_buffer": 30,
+    "match_thresh": 0.8,
+    "proximity_thresh": 0.5,
+    "appearance_thresh": 0.25,
+    "cmc_method": "ecc",
+    "with_reid": true
+  },
+  "selected_tracking_run": "experiments/formal/run_20261022_01/tracking/tuning/botsort_trial0",
+  "selected_evaluation": "experiments/formal/run_20261022_01/tracking/tuning_eval/botsort_trial0",
+  "metrics": {
+    "HOTA": 0.7999020718821003,
+    "HOTA_at_0_5": 0.9851242544323073,
+    "DetA_at_0_5": 0.9873413537810682,
+    "AssA_at_0_5": 0.9829121336347876,
+    "IDF1": 0.990403964808994,
+    "MOTA": 0.9878247563287981,
+    "IDSW": 5,
+    "FP": 184,
+    "FN": 177
+  },
+  "detector_cache": {
+    "path": "experiments/formal/run_20261022_01/cache/tuning/cache.json",
+    "sha256": "2e60533214aff254739338b06ea7d8f7516886401bd92b3e76f0bfdcfba319df"
+  },
+  "detector_checkpoint": {
+    "path": "experiments/formal/run_20261022_01/detection/train/yolox_s20261022/best_coco_bbox_mAP_epoch_5.pth",
+    "sha256": "f1a093f2d8bee945abd7e65f110ef7d69a8b82c9ea6f5403511e4f2676bc275c"
+  },
+  "protocol": {
+    "path": "datasets/splits/protocol_v2/tracking/splits.json",
+    "sha256": "b6caec252cb15136590eac4f08287ac4eec50d8eaa8cf17fc6d69104e6d6e19f"
+  }
+}

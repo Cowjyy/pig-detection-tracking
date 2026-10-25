@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "framework": "mmdetection",
+  "upstream_commit": "44ebd17b145c2372c4b700bfb9cb20dbd28ab64a",
+  "annotation_directory": "datasets/annotations/detection_v2_voc",
+  "image_scale": [640, 640],
+  "epochs": 100,
+  "validation_interval": 1,
+  "seeds": [20261022],
+  "seed_protocol": "fixed_single_seed",
+  "workers": 4,
+  "precision": "fp32",
+  "pretraining": "COCO detection checkpoints for all six; classification heads are reinitialized on size mismatch",
+  "augmentation": "shared resize/flip/pad; native Mosaic/MixUp, dynamic resizing and EMA disabled for this controlled protocol",
+  "models": {
+    "faster_rcnn": {"name": "Faster R-CNN R50-FPN", "config": "configs/faster_rcnn/faster-rcnn_r50_fpn_1x_coco.py", "batch_size": 2},
+    "retinanet": {"name": "RetinaNet R50-FPN", "config": "configs/retinanet/retinanet_r50_fpn_1x_coco.py", "batch_size": 2},
+    "fcos": {"name": "FCOS R50-Caffe-FPN", "config": "configs/fcos/fcos_r50-caffe_fpn_gn-head_1x_coco.py", "batch_size": 2},
+    "yolox": {"name": "YOLOX-S", "config": "configs/yolox/yolox_s_8xb8-300e_coco.py", "batch_size": 8},
+    "rtmdet": {"name": "RTMDet-S", "config": "configs/rtmdet/rtmdet_s_8xb32-300e_coco.py", "batch_size": 8},
+    "deformable_detr": {"name": "Deformable DETR R50", "config": "configs/deformable_detr/deformable-detr_r50_16xb2-50e_coco.py", "batch_size": 2}
+  }
+}

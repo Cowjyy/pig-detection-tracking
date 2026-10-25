@@ -1,0 +1,10 @@
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+numpy==1.26.4
+mmcv==2.1.0
+mmengine==0.10.7
+scipy==1.11.4
+pycocotools==2.0.7
+opencv-python==4.10.0.84
+matplotlib==3.8.4
+Pillow==10.4.0
